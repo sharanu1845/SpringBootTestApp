@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 public class MessageRunner implements CommandLineRunner{
 
 	@Override
-	public void run(String... args) throws Exception {
-int a=10;
+ 	public void run(String... args) throws Exception {
+      int a=10;
 System.out.println("HELLO MODIFIED");	
 
 	}
